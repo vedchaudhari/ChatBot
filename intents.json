@@ -1,0 +1,845 @@
+{
+  "intents": [
+    {
+      "tag": "your name",
+      "patterns": [
+        "What is your name",
+        "What is your name?",
+        "Who are you?",
+        "Who are you"
+      ],
+      "responses": [
+        "Hello!, Myself Virtual Assistant"
+      ]
+    },
+    {
+      "tag": "your_purpose",
+      "patterns": [
+        "purpose",
+        "what is your puspose",
+        "why are you developed"
+      ],
+      "responses": [
+        "My purpose is to answer to the queries perticularly related to the computer department of the collage asked by you."
+      ]
+    },
+    {
+      "tag": "created made",
+      "patterns": [
+        "Who created you",
+        "Who programmed you",
+        "You were created / programmed by",
+        "This project is created by",
+        "Who created this project"
+      ],
+      "responses": [
+        "A317 Ved Chaudhari\n\tA318 Mihir Chauhan\n\tA337 Bhushan Jadhav\n\tA339 Shreyash Jadhav"
+      ]
+    },
+    {
+      "tag": "project name",
+      "patterns": [
+        "What is name of this project",
+        "name of this project",
+        "project name"
+      ],
+      "responses": [
+        "Project name :- Chat-Bot System for College Management"
+      ]
+    },
+    {
+      "tag": "guide",
+      "patterns": [
+        "Guide",
+        "guide name",
+        "Who is guide of this project",
+        "What is name of guide of this project"
+      ],
+      "responses": [
+        "Prof. Sumitra Sadhukhan "
+      ]
+    },
+    {
+      "tag": "group number",
+      "patterns": [
+        "group number",
+        "grp no"
+      ],
+      "responses": [
+        "group no :- 9"
+      ]
+    },
+    {
+      "tag": "doing",
+      "patterns": [
+        "What are you doing?"
+      ],
+      "responses": [
+        "Just waiting... ,to get more queries"
+      ]
+    },
+    {
+      "tag": "going on",
+      "patterns": [
+        "What's going on ?",
+        "What is going on"
+      ],
+      "responses": [
+        "Not much,How about yourself?",
+        "How are you doing today?"
+      ],
+      "context": []
+    },
+    {
+      "tag": "fine , good",
+      "patterns": [
+        "great",
+        "fine",
+        "I am having a nice day",
+        "Today i am having a nice day",
+        "Today is a good day",
+        "is a good",
+        "best day",
+        "better day",
+        "happy today"
+      ],
+      "responses": [
+        "Ohh That's Cool!"
+      ]
+    },
+    {
+      "tag": "bored,not good,worst",
+      "patterns": [
+        "worst day",
+        " i am feeling bored",
+        " i am feeling sad",
+        "i am having a worst day ",
+        "not good",
+        "Today is not a good day",
+        "not a good",
+        "Today is a bad day",
+        "bad day",
+        "sad today",
+        "not happy "
+      ],
+      "responses": [
+        "I'm feeling sorry for you"
+      ]
+    },
+    {
+      "tag": "Ok",
+      "patterns": [
+        "Ok"
+      ],
+      "responses": [
+        "You can ask me many more queries ,if you have!"
+      ],
+      "link": [
+        "<a href='www.examplelink.com'>www.examplelink.com</a>"
+      ]
+    },
+    {
+      "tag": "That's all",
+      "patterns": [
+        "No That's all",
+        "That's all"
+      ],
+      "responses": [
+        "Glad! to help you."
+      ]
+    },
+    {
+      "tag": "good morning",
+      "patterns": [
+        "good morning"
+      ],
+      "responses": [
+        "good morning! How may i help you?"
+      ]
+    },
+    {
+      "tag": "program language",
+      "patterns": [
+        "In which programming language you are created",
+        "which programming language is used to create you",
+        "which coding language is used"
+      ],
+      "responses": [
+        "Python3"
+      ]
+    },
+    {
+      "tag": "good afternoon",
+      "patterns": [
+        "good afternoon"
+      ],
+      "responses": [
+        "good afternoon!"
+      ]
+    },
+    {
+      "tag": "good evening",
+      "patterns": [
+        "good evening"
+      ],
+      "responses": [
+        "good evening"
+      ]
+    },
+    {
+      "tag": "good night",
+      "patterns": [
+        "good night"
+      ],
+      "responses": [
+        "Good Night! Have a great sleep."
+      ]
+    },
+    {
+      "tag": "official site",
+      "patterns": [
+        "College official site",
+        "Official site",
+        "college site",
+        "What is official site of college"
+      ],
+      "responses": [
+        "To know more you may visit 'https://www.mctrgit.ac.in'"
+      ]
+    },
+    {
+      "tag": "principal",
+      "patterns": [
+        "Who is current principal of this college",
+        "Who is your principal",
+        "Who is principal of RGIT",
+        "Principal of RGIT",
+        "Principal of College"
+      ],
+      "responses": [
+        "DR. SANJAY BOKADE"
+      ]
+    },
+    {
+      "tag": "alumni",
+      "patterns": [
+        "who are alumni of this college",
+        "name alumni of RGIT"
+      ],
+      "responses": [
+        "Notable Alumni\nRajiv Gandhi Institute has some notable Alumni members. Alumni of the college include:\n\nMr. Vicky Kaushal\nMr. Ravi Dubey\nMs. Tejaswi Prakash\nMs. Megha ray\n and many more...."
+      ]
+    },
+    {
+      "tag": "college name",
+      "patterns": [
+        "What is name of this college?",
+        "What is name of college",
+        "Name of college",
+        "college name",
+        "For which college do you work for"
+      ],
+      "responses": [
+        "Rajiv Gandhi Institute Of Technology"
+      ]
+    },
+    {
+      "tag": "establishment",
+      "patterns": [
+        "When this college was established"
+      ],
+      "responses": [
+        "1992"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What are courses available in this college",
+        "What are courses available in RGIT",
+        "Courses available"
+      ],
+      "responses": [
+        "\nUndergraduate:-\nFollowing are the branches in which Bachelor of Engineering (B.E.) degree of University of Mumbai is offered at RGIT\n\nBachelor of Engineering (B.E.) in Computer Engineering\nBachelor of Engineering (B.E.) in Information Technology\nBachelor of Engineering (B.E.) in Mechanical Engineering\nBachelor of Engineering (B.E.) in Electronics & Telecommunication Engineering\nBachelor of Engineering (B.E.) in Instrumentation Engineering\n\nGraduate:-\nMaster of Engineering (M.E.) in Computer Engineering\nMaster of Engineering (M.E.) in Mechanical Engineering\nMaster of Engineering (M.E.) in Electronics & Telecommunication Engineering\n\nDoctoral programs:-\nThe college offers a Doctoral program, where the degree is conferred by the University of Mumbai\n\nPh.D. in Computer Engineering\nPh.D. in Mechanical Engineering\nPh.D. in Electronics & Telecommunication Engineering"
+      ]
+    },
+    {
+      "tag": "branch",
+      "patterns": [
+        "What branches can i take in this college",
+        "which branches are available ",
+        "branches"
+      ],
+      "responses": [
+        "\nComputer Engineering,\nInformation Technology,\nElectronics and Telecommunication,\nMechanical Engineering,\nInstrumentation Engineering,\n Artificial Intelligence & Data Science"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "What is college location",
+        "college location",
+        "what is location of this college",
+        "Can you tell me location of this college",
+        "where is this college located",
+        "where is RGIT located",
+        "address of college",
+        "Address"
+      ],
+      "responses": [
+        "Juhu Versova Link Rd, behind HDFC Bank, Gharkul Society, Bharat Nagar, Versova, Andheri West, Mumbai, Maharashtra 400053"
+      ]
+    },
+    {
+      "tag": "floor",
+      "patterns": [
+        "On Which floor computer department is located",
+        "floor",
+        "computer dept floor"
+      ],
+      "responses": [
+        "3rd Floor"
+      ]
+    },
+    {
+      "tag": "doubts",
+      "patterns": [
+        "Do Teachers clarify doubts of students ?",
+        "Do teachers solve doubts of students",
+        "How Teacher teaches"
+      ],
+      "responses": [
+        "Yes ,As in our college every teacher is expert in his/her Subject",
+        "Yes , They are available any time for double solving",
+        "All Teaches Well and Best"
+      ]
+    },
+    {
+      "tag": "motto",
+      "patterns": [
+        "What is motto of your college",
+        "Motto"
+      ],
+      "responses": [
+        "Motto: (Knowledge is the ultimate aim)"
+      ]
+    },
+    {
+      "tag": "active hours",
+      "patterns": [
+        "What are college active hours",
+        "college active hours",
+        "college hours",
+        "college hrs",
+        "When college will be open"
+      ],
+      "responses": [
+        "Office Active Hours: \nSunday\t\tClosed\nMonday\t\t8am to 4:15pm\nTuesday\t\t8am to 4:15pm\nWednesday\t\t8am to 4:15pm\nThursday\t\t8am to 4:15pm\nFriday\t\t8am to 4:15pm\nSaturday\t\t8am to 4:15pm"
+      ]
+    },
+    {
+      "tag": "university affiliation",
+      "patterns": [
+        "College is affiliated by? ",
+        "Name of University",
+        "University",
+        "affiliation",
+        "Comes under?"
+      ],
+      "responses": [
+        "MUMBAI UNIVERSITY"
+      ]
+    },
+    {
+      "tag": "phone number,service number,contact number ,contact no",
+      "patterns": [
+        "How can I contact the college",
+        "Can i get contact number of college",
+        "service number",
+        "phone number of college",
+        "phone number"
+      ],
+      "responses": [
+        "Phone: 022 2670 7025"
+      ]
+    },
+    {
+      "tag": "some more info,staffs",
+      "patterns": [
+        "Give me some more info about college",
+        "some more info"
+      ],
+      "responses": [
+        "Our college have \nUndergraduates: 360\nAcademic staff: 147\nCampus: Urban"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "How are you?"
+      ],
+      "responses": [
+        "Fine, thanks for asking"
+      ]
+    },
+    {
+      "tag": "greet",
+      "patterns": [
+        "Hey",
+        "Hi",
+        "Hello"
+      ],
+      "responses": [
+        "Hello! How may I help you?",
+        "Good to see you !",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "Happy to help!",
+        "My pleasure",
+        "Welcome",
+        "Any time!"
+      ]
+    },
+    {
+      "tag": "sorry",
+      "patterns": [
+        "sorry",
+        "Sorry",
+        "I am sorry",
+        "i'm sorry",
+        "I'm sorry",
+        "My bad",
+        "Pardon me"
+      ],
+      "responses": [
+        "It's OK",
+        "No Problem"
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [
+        "",
+        " "
+      ],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ]
+    },
+    {
+      "tag": "clg_canteen",
+      "patterns": [
+        "where is collage canteen",
+        "canteen"
+      ],
+      "responses": [
+        "The canteen is on the ground floor and to the right of the collage entrance"
+      ]
+    },
+    {
+      "tag": "Help",
+      "patterns": [
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered"
+      ],
+      "responses": [
+        "I can guide you throughout problems you might \nface about college(perticularly computer department)",
+        "You can ask me any college related queries(perticularly computer department),I am available anytime for you"
+      ]
+    },
+    {
+      "tag": "department",
+      "patterns": [
+        "Which department do you work for?",
+        "Department",
+        "What is your department"
+      ],
+      "responses": [
+        "COMPUTER DEPARTMENT",
+        "I work for computer Department "
+      ]
+    },
+    {
+      "tag": "information on department",
+      "patterns": [
+        "What can i ask you",
+        "tell me more about computer department",
+        "give me information on your department",
+        "What info can i get more?",
+        "What information can i get more?"
+      ],
+      "responses": [
+        "You can ask me about:\n1. Our main focus.\n2. intake capaticy.\n3. Vision and future Scope.\n4. Advantages of Comps.\n5. Out mission\n6. Education objective and aim.\n7. Our faculties.\n"
+      ]
+    },
+    {
+      "tag": "focus your department",
+      "patterns": [
+        "what is main focus of your department",
+        "main focus"
+      ],
+      "responses": [
+        "  The prime focus of the department is imparting quality practical education . The department gives equal importance to curricular and co-curricular activities for fostering the overall development of the students. The department conducts various seminars for preparing them for various aptitude tests and interviews."
+      ]
+    },
+    {
+      "tag": "intake capacity ",
+      "patterns": [
+        "What is intake capacity of your computer department",
+        "What is intake capacity of comps",
+        "intake capacity"
+      ],
+      "responses": [
+        "Intake Capacity UG : 120 seats. \nDepartment has PG in Computer Network and Information Security with an intake of 18 since 2014. \nPhD in Computer Engineering with an intake of 10 since 2017."
+      ]
+    },
+    {
+      "tag": "vision future",
+      "patterns": [
+        "What are vision of computer department",
+        "Future of computer ",
+        "future and vision "
+      ],
+      "responses": [
+        "To become a leading department committed to nurture student centric learning through outcome and skill based transformative IT education to create Technocrats and leaders for the service of society."
+      ]
+    },
+    {
+      "tag": "pros advantages",
+      "patterns": [
+        "What are advantages of your department",
+        "pros ",
+        "advantages",
+        "pros of department"
+      ],
+      "responses": [
+        "The department organizes different training programs like:-\n\n1. Campus connect initiated by Info-sys and other leading industries. \n\n2. The department also has departmental library which has all the important textbooks, conference proceeding and journal.This is besides the central library which is very well equipped.\n\n3. The faculty actively participates in research and consultancy work. \n\n4. The department has always been on a high growth path and has experienced and dedicated faculty with a strong commitment."
+      ]
+    },
+    {
+      "tag": "mission missions",
+      "patterns": [
+        "mission",
+        "missions",
+        "What are mission of computer department"
+      ],
+      "responses": [
+        "1. To shape ourselves into a learning community to flourish leadership, team spirit, ethics, listen and respect each other.\n\n2. To provide computer educational experience that transforms student through rigorous course work and by providing an understanding of the need of the society and industry.\n\n3. To educate students to be professionally IT competent for industry and research programme by providing industry institute interaction.\n\n4. To strive for excellence among students by infusing a sense of excitement in Computer innovation, invention, design, creation and entrepreneurship\n\n5. To contribute in the service of society by participation of faculty, staff and students in socio-economic and socio-cultural activities."
+      ]
+    },
+    {
+      "tag": "education objective , aim",
+      "patterns": [
+        "What are education objective",
+        "what are aims ",
+        "aims",
+        "objective",
+        "objectives",
+        "aim"
+      ],
+      "responses": [
+        "1. To prepare student with a sound foundation in Mathematics, Scientific and Computer Engineering fundamentals and prepare for employment, higher studies and research.\n\n2. To develop the student ability to analyze and synthesize application and system software.\n\n3. To inculcate leadership, team work, entrepreneurship, professional ethics, Indian values and holistic development among students.\n\n4. To prepare student to become generalist engineers for solving complex engineering problem.\n\n5. To motivate student to the art of self-learning and solve complex real life problems using modern scientific and IT tools."
+      ]
+    },
+    {
+      "tag": "outcome , result ",
+      "patterns": [
+        "program specific outcomes",
+        "results",
+        "result",
+        "outcomes",
+        "outcome",
+        "what result we will get after the program"
+      ],
+      "responses": [
+        "1. An ability to apply the knowledge of Computer Engineering for the design and development of IoT system.\n\n2. An ability to solve complex Computer Engineering problems using latest tools to achieve optimized solutions."
+      ]
+    },
+    {
+      "tag": "faculty faculties",
+      "patterns": [
+        "who are the faculties",
+        "faculty",
+        "faculties",
+        "faculty member",
+        "faculty members"
+      ],
+      "responses": [
+        "\n*UG PROGRAMME\n    Faculty Profile\n\nProf. SUMITRA SADHUKHAN\n\nProf. NAINA KAUSHIK\n\nProf. SUNIL P. KHACHANE\n\nDr. SATISH Y. KET\n\nProf. DNYANESHWAR P. KAPSE\n\nProf. DILIP KALE\n\nProf. DILIP M. DALGADE\n\nDr. SHARMILA GAIKWAD\n\nProf. SAVITA LADE\n\nProf. BHAVESH PANCHAL\n\nDr. JYOTI DESHMUKH\n\nProf. PRIYA PARATE\n\nProf. PREETI SATAO\n\nProf. BHUSHAN M. PATIL\n\nProf. KAAJAL SHARMA\n\nPROF. SURESH MESTRY\n\nProf. DIPAK D. GAIKAR\n\nProf. ANITA LAHANE\n\nProf. DNYANESHWAR DHANGAR\n\nProf. PRIYANKA L. BHILARE\n\n\nTechnical Staff\n\nMrs. M. N. Warade\n\nMr.Pradeep Yadav\n\nMr. Ismail Patel\n\nMR. SANTOSH GHATKAR\n\nMr. Avinash Bhisikar\n\nMrs. Sonal Divekar\n\n**\nTO KNOW MORE ABOUT FACULTY MEMBER PLEASE ENTER THEIR NAME"
+      ]
+    },
+    {
+      "tag": "Sunil khachne",
+      "patterns": [
+        "Sunil Khachne",
+        "Sunil.P.Khachne",
+        "Prof. Sunil Khachne"
+      ],
+      "responses": [
+        "Head of Department and Asst.Professor in Computer Engineering Department..\n\nQualification:- M.E. in Computer Technology. B.E. in Computer Science and Engineering,\n\nExperience:- 27 Years Industry:2.5 Years\n\nArea of Specialization:- Operating System, Computer Organization and Architecture, Network Security\n\nMobile:- 9833800580\nEmail Id\t:- sunil.khachane@mctrgit.ac.in"
+      ]
+    },
+    {
+      "tag": "Satish Ket",
+      "patterns": [
+        "Satish Ket",
+        "Satish.Y.Ket",
+        "Ket"
+      ],
+      "responses": [
+        "Dr. SATISH Y. KET\n\nProfessor, Computer Engineering Department\n\nQualification:- PhD Technology, M.E. in Computer Engineering,\n\nB.E. in Electronics Engineering\n\nExperience:- 27 Years\n\nArea of Specialization:- Computer Network, Wireless and Mobile Computing\n\nMobile:- 9969106065\n\nEmail Id\t:- satish.ket@mctrgit.ac.in"
+      ]
+    },
+    {
+      "tag": "Dnyaneshwar Kapse",
+      "patterns": [
+        "Prof. DNYANESHWAR P. KAPSE",
+        "Dnyaneshwar Kapse",
+        "Kapse"
+      ],
+      "responses": [
+        "Prof. DNYANESHWAR P. KAPSE\n\nAsst .Professor in Computer Engineering Department.\n\nQualification:- M. Tech I.T.,B.E. in Computer Engineering\n\nExperience:- 24 Years\n\nArea of Specialization:- \n Microprocessor, System Security, Computer Organization, Operating System, Parallel and Distributed System\n\nEmail Id\t:- dnyaneshwar.kapse@mctrgit.ac.in"
+      ]
+    },
+    {
+      "tag": "Dilip Kale",
+      "patterns": [
+        "Prof. DILIP KALE",
+        "Dilip Kale"
+      ],
+      "responses": [
+        "Prof. DILIP KALE\n\nAsst.Professor in Computer Engineering Department.\n\nQualification:- PhD (Pursuing),M.E. in Computer Engineering, B.E. in Computer Engineering\n\nDiploma in Electrical Engineering.\n\nExperience:- 22.5 Years\n\nArea of Specialization:- Robotics, Artifical  intellengence ,Database management system ,Business data processing, system design, Discrete structure ,computer graphics numerical techniques, Computer programming. Distributed Computing, Data Structures and Algorithm, Computer Org"
+      ]
+    },
+    {
+      "tag": "Dilip Dalgade",
+      "patterns": [
+        "Prof. DILIP DALGADE",
+        "Dilip Dalgade"
+      ],
+      "responses": [
+        "Prof. DILIP M. DALGADE\n\nAssistant Professor  in Comp. Engg.\n\nQualification: M.Tech. in Information Technology, B.E. in Computer and Science Engineering\n\nExperience: 18 Years\n\nArea of Specialization : Data Structure, Analysis of Algorithm, Programming in c, C++, java, Object-Oriented Analysis and Design\n\nEmail Id :dilip.dalgade@mctrgit.ac.in"
+      ]
+    },
+    {
+      "tag": "SHARMILA GAIKWAD",
+      "patterns": [
+        "Dr. SHARMILA GAIKWAD",
+        "Sharmila Gaikwad"
+      ],
+      "responses": [
+        "Dr. SHARMILA GAIKWAD\n\nAsst.Professor in Computer Engineering Department.Qualification:- PhD , M.E. in Computer Engineering, B.E. in Computer Engineering, Diploma in Computer Engineering \n\nExperience:- 17 Years\n\nArea of Specialization:- Software Engineering, Web Engineering, Object oriented software Engineering.\n\nEmail Id\t:- sharmila.gaikwad@mctrgit.ac.in"
+      ]
+    },
+    {
+      "tag": "SAVITA LADE",
+      "patterns": [
+        "Prof. SAVITA LADE",
+        "Savita Lade"
+      ],
+      "responses": [
+        "Prof. SAVITA LADE\n\nAsst. Professor in Computer Engineering Department\n\nQualification: M.E. in Computer Science and Engineering, B.E. in Computer Engineering\n\nExperience: 17 Years\n\nArea of Specialization: Computer Networking, Network Security, Mobile Computing, Multimedia System, Distributed Systems, Software Engineering, Human Machine Interaction\n\nEmail Id: savita.lade@mctrgit.ac.in"
+      ]
+    },
+    {
+      "tag": "Dr. JYOTI DESHMUKH",
+      "patterns": [
+        "Dr. JYOTI DESHMUKH",
+        "Jyoti Deshmukh"
+      ],
+      "responses": [
+        "Dr. JYOTI DESHMUKH\n\nAssociate Professor in Computer Engineering Department.\n\nQualification:- PhD, M.E. in Computer Engineering B.Tech. in Computer Science and Technology\n\nExperience:- 17 Years\n\nArea of Specialization:- Image Processing, Signal Processing, Image Mining, Multimedia Systems Design, Data Warehousing and Data Mining\n\nMobile:- 7977184708\n\nEmail Id\t:- jyoti.deshmukh@mctrgit.ac.in"
+      ]
+    },
+    {
+      "tag": "Bhavesh Panchal",
+      "patterns": [
+        "Prof. Bhavesh Panchal",
+        "Bhavesh Panchal"
+      ],
+      "responses": [
+        "Prof. BHAVESH PANCHAL\n\nAsst. Professor in Computer Engineering Department.\n\nQualification : M.E. Information Technology ,B.E. in Computer Engineering\n\nExperience: 15 Years\n\nArea of Specialization: Networking, Simulation, Algorithm, Data Structure using Programming\n\nEmail Id : bhavesh.panchal@mctrgit.ac.in"
+      ]
+    },
+    {
+      "tag": "PRIYA PARATE",
+      "patterns": [
+        "Prof. PRIYA PARATE",
+        "Priya Parate"
+      ],
+      "responses": [
+        "Prof. PRIYA PARATE\n\nAsst. Professor in Computer Engineering Department.\n\nQualification : M.E. in Computer Enginreering ,B.E. in Computer Engineering\n\nExperience: 12 Years\n\nArea of Specialization: Database management System, Dataware housing and Data Mining,Knowledge base system\n\nEmail: priya.parate@mctrgit.ac.in"
+      ]
+    },
+    {
+      "tag": "PREETI SATAO",
+      "patterns": [
+        "Prof. PREETI SATAO",
+        "Preeti Satao"
+      ],
+      "responses": [
+        "Prof. PREETI SATAO\n\nAsst. Professor in Computer Engineering Department.\n\nQualification : M.E. in Computer Engineering ,B.E. in Computer Engineering\n\nExperience: 16 Years\n\nArea of Specialization: Data Mining , Clustering , System Programming and Compiler Construction ,Theory of Computer Science , Database Management System\n\nEmail id: preeti.satao@mctrgit.ac.in"
+      ]
+    },
+    {
+      "tag": "BHUSHAN M. PATIL",
+      "patterns": [
+        "Prof. BHUSHAN M. PATIL",
+        "Bhushan Patil",
+        "Bhushan.M.Patil"
+      ],
+      "responses": [
+        "Prof. BHUSHAN M. PATIL\n\nAsst. Professor in Computer Engineering Department.\n\nQualification : M.E. in Computer Engineering ,B.E. in Computer Engineering\n\nExperience: 21 Years\n\nArea of Specialization: Distributed System, Computer Networking, Software engineering, IOT, Cloud Computing\n\nEmail id: bhushan.patil@mctrgit.ac.in\n\n"
+      ]
+    },
+    {
+      "tag": "KAAJAL SHARMA",
+      "patterns": [
+        "Prof. KAAJAL SHARMA",
+        "Kaajal Sharma"
+      ],
+      "responses": [
+        "Prof. KAAJAL SHARMA\n\nAsst. Professor in Computer Engineering Department.\n\nQualification : M.E. in Computer Engineering ,B.E. in Computer Engineering\n\nExperience: 17 Years\n\nArea of Specialization: Data Structure\n\nEmail id: kajaal.sharma@mctrgit.ac.in"
+      ]
+    },
+    {
+      "tag": "SURESH MESTRY",
+      "patterns": [
+        "PROF. SURESH MESTRY",
+        "SURESH MESTRY"
+      ],
+      "responses": [
+        "PROF. SURESH MESTRY\n\nAsst. Professor in Computer Engineering Department.\n\nQualification : M.E. in Computer Engineering ,B.E. in Computer Engineering\n\nExperience: 11 Years\n\nArea of Specialization: Machine Learning, Robotics and artificial Intelligence, Software Engineering\n\nEmail id: suresh.mestry@mctrgit.ac.in"
+      ]
+    },
+    {
+      "tag": "DIPAK D. GAIKAR",
+      "patterns": [
+        "Prof. DIPAK D. GAIKAR",
+        "Dipak Gaikar"
+      ],
+      "responses": [
+        "Prof. DIPAK D. GAIKAR\n\nAsst. Professor in Computer Engineering Department.\n\nQualification : M.E. in Information Technology . B.E. in Information Technology\n\nExperience: 10 Years\n\nArea of Specialization: Computer programming Languages(C, C++, Java, VB),Database management system, Web Designing, Social Media Analytics \n\nEmail id: dipak.gaikar@mctrgit.ac.in\t"
+      ]
+    },
+    {
+      "tag": "Anita Lahane",
+      "patterns": [
+        "Prof. ANITA LAHANE",
+        "Anita Lahane"
+      ],
+      "responses": [
+        "Prof. ANITA LAHANE\n\nAsst. Professor in Computer Engineering Department.\n\nQualification : M.E. in Information technology ,B.E. in Computer Science & Engineering\n\nExperience: 12 Years\n\nArea of Specialization: Database System , Data Warehousing & Mining, Networking,Image Processing, Communication Networking\n\nEmail id: anita.lahane@mctrgit.ac.in@mctrgit.ac.in\t"
+      ]
+    },
+    {
+      "tag": "Dnyaneshwar Dhangar",
+      "patterns": [
+        "Prof. DNYANESHWAR DHANGAR",
+        "Dnyaneshwar Dhangar"
+      ],
+      "responses": [
+        "Prof. DNYANESHWAR DHANGAR\n\nAsst. Professor in Computer Engineering Department.\n\nQualification : M.E. Information Technology and B.E. in Computer Science & Engineering\n\nExperience: 12 Years\n\nArea of Specialization: Database System , Data Warehousing & Mining, Networking, Networking\n\nEmail id: dnyaneshwar.dhangar@mctrgit.ac.in"
+      ]
+    },
+    {
+      "tag": "PRIYANKA BHILARE",
+      "patterns": [
+        "Prof. PRIYANKA L. BHILARE",
+        "Priyanka Bhilare",
+        "Priyanka.L.Bhilare"
+      ],
+      "responses": [
+        "Prof. PRIYANKA L. BHILARE\n\nAsst. Professor in Computer Engineering Department.\n\nQualification : M.E. in Computer Engineering ,B.E. in Information Technology\n\nExperience: 8 Years\n\nArea of Specialization: Data Warehousing and Data Mining, Database Management System,Operating System, Web Engineering.\n\nEmail id: priyanka.bhilare@mctrgit.ac.in"
+      ]
+    },
+    {
+      "tag": "SUMITRA SADHUKHAN",
+      "patterns": [
+        "Prof. SUMITRA SADHUKHAN",
+        "Sumitra Sadhukhan"
+      ],
+      "responses": [
+        "Prof. SUMITRA SADHUKHAN\n\nAsst. Professor in Computer Engineering Department.\n\nQualification : M. Tech. in Information Technology ,B.E. in Computer Engineering\n\nExperience: 12 Years\n\nArea of Specialization: Theory of Computer Science, System Programming and Compiler Construction, Database Management System, Data Warehousing and mining,\tDistributed Database System, Computer Graphics, Algorithm, Operating System, Computer Languages(C, C++, SQL)\n\nEmail id: sumitra.sadhukhan@mctrgit.ac.in"
+      ]
+    },
+    {
+      "tag": "Prof. NAINA KAUSHIK",
+      "patterns": [
+        "Prof. NAINA KAUSHIK",
+        "Naina Kaushik"
+      ],
+      "responses": [
+        "\nProf. NAINA KAUSHIK\n\nAsst. Professor  in Computer Engineering Department\n\nQualification : M. Tech. in Computer Science, M.Sc. in Computer Science \n\nExperience: 12 Years\n\nArea of Specialization: Computer Languages(C, C++, Java, VB),Operating System, Theory of Computation\n\nEmail id: naina.kaushi@mctrgit.ac.in"
+      ]
+    },
+    {
+      "tag": "Head of Department HOD",
+      "patterns": [
+        "HOD",
+        "Head of Department"
+      ],
+      "responses": [
+        "Prof. SUNIL .P. KHACHANE"
+      ]
+    },
+    {
+      "tag": "2nd year subjects",
+      "patterns": [
+        "Subjects for 2nd year", "second year subjects"
+      ],
+      "responses": [
+        "Semester 3:\n\nEngineering Mathematics - III\nDiscrete Structures and Graph Theory\nData Structure\nDigital Logic & Computer Architecture\nComputer Graphics\nObject Oriented Programming With Java(LAB)\n\n-------------------------------------------------\n\nSemester 4:\n\nEngineering Mathematics - IV\nAnalysis Of Algorithm\nDatabase Management System\nOperating System\nMicroprocessor\nPython Programming(LAB)\n"
+      ]
+    },
+    {
+      "tag": "3rd year subjects",
+      "patterns": [
+        "Subjects for 3rd year", "third year subjects"
+      ],
+      "responses": [
+        "Semester 5:\n\nTheoretical Computer Science\nSoftware Engineering\nComputer Network\nData Warehousing & Mining\nDepartment Level Optional Course-1\nBusiness Comm. & Ethics II\n-------------------------------------\nDepartment Optional Course-1:\n\tProbabilistic Graphical Models\n\tInternet Programming\n\tAdv. Data Management System\n\n----------------------------------------------\n\nSemester 6:\n\nSystem Programming & Compiler Construction\nCryptography & System Security\nMobile Computing\nArtificial Intelligence\nDepartment Level Optional Course - 2\nCloud Computing(LAB)\n-------------------------------------\nDepartment Optional Course-2:\n\tInternet Of Things\n\tDigital Signal & Image Processing\n\tQuantitative Analysis"
+      ]
+    },
+    {
+      "tag": "Companies",
+      "patterns": [
+        "companies", "which companies comes for recruitment","which companies give placement to students"
+      ],
+      "responses": [
+        "L&T Technology services\nTATA Consultancy Services\nReliance\nJio\nCapgemini\nJust Dial\nHallburton\nIBM\nEquinox Technology\nWorley Parsons\nCognizant"
+      ]
+    }
+  ]
+}
